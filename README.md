@@ -121,6 +121,9 @@ For every problem, I maintain:
 
 | Pattern | Problems |
 |---|---|
+| Arrays | 136, 169 |
+| Two Pointer | 18, 11, 15 |
+| Binary Search | 74, 33 |
 
 <!-- END_PATTERNS -->
 
