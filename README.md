@@ -39,7 +39,21 @@ Language Used:
 
 | Date | Problem |
 |---|---|
-| - | No recent problems found |
+| 28 July 2026 | 33. Search In Rotated Sorted Array |
+| 28 July 2026 | 882. Peak Index In A Mountain Array |
+| 28 July 2026 | 540. Single Element In A Sorted Array |
+| 14 July 2026 | 3. Longest Substring Without Repeating Characters |
+| 14 July 2026 | 287. Find The Duplicate Number |
+| 13 July 2026 | 56. Merge Intervals |
+| 12 July 2026 | 53. Maximum Subarray |
+| 12 July 2026 | 50. Powx N |
+| 12 July 2026 | 11. Container With Most Water |
+| 12 July 2026 | 75. Sort Colors |
+| 12 July 2026 | 15. 3Sum |
+| 12 July 2026 | 18. 4Sum |
+| 12 July 2026 | 74. Search A 2D Matrix |
+| 11 July 2026 | 169. Majority Element |
+| 11 July 2026 | 3227. Find Missing And Repeated Values |
 
 <!-- END_RECENT -->
 
