@@ -1,0 +1,48 @@
+name: Update LeetCode Streak
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+
+jobs:
+
+  update:
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+
+    - name: Generate streak card
+      run: |
+        python scripts/update_leetcode_streak.py
+
+
+    - name: Commit SVG
+      run: |
+
+        git config user.name github-actions
+
+        git config user.email github-actions@github.com
+
+        git add assets/leetcode-streak.svg
+
+        git commit -m "Update LeetCode streak card" || exit 0
+
+        git push
