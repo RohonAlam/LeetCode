@@ -1,0 +1,88 @@
+{
+  "Arrays": {
+    "total": 25,
+    "solved": [
+      "Majority Element",
+      "Repeat & missing number",
+      "Merge 2 sorted array without xtra space",
+      "Single Number",
+      "Stock Buy & Sell",
+      "Kadane's Algorithm",
+      "Pow xn",
+      "Container with most water",
+      "Sort array of 0s, 1s & 2s",
+      "3Sum",
+      "4Sum",
+      "Search a 2D matrix ",
+      "Next permutation",
+      "Merge overlapping intervals",
+      "Longest substring without repeating",
+      "Set matrix zeroes",
+      "Word search",
+      "Product of array except itself",
+      "Find Duplicate"
+    ]
+  },
+  "Binary Search": {
+    "total": 7,
+    "solved": [
+      "Search in rotated sorted array",
+      "Peak index in mountain array",
+      "Single element in sorted array",
+      "Allocate Minimum Pages (Book Allocation)"
+    ]
+  },
+  "Strings": {
+    "total": 12,
+    "solved": [
+      "Valid Palindrome",
+      "Longest Common Prefix",
+      "Valid Anagram",
+      "Reverse Words in String",
+      "Remove All Occurrences of String",
+      "Permutation in String",
+      "String Compression",
+      "Group Anagrams"
+    ]
+  },
+  "Recursion & Backtracking": {
+    "total": 11,
+    "solved": []
+  },
+  "Linked List": {
+    "total": 13,
+    "solved": []
+  },
+  "Stack & Queue": {
+    "total": 15,
+    "solved": []
+  },
+  "Binary Trees": {
+    "total": 24,
+    "solved": []
+  },
+  "Bst": {
+    "total": 15,
+    "solved": []
+  },
+  "Heaps": {
+    "total": 6,
+    "solved": []
+  },
+  "Trie": {
+    "total": 5,
+    "solved": []
+  },
+  "Graph": {
+    "total": 26,
+    "solved": []
+  },
+  "Dp": {
+    "total": 21,
+    "solved": []
+  },
+  "Greedy": {
+    "total": 6,
+    "solved": []
+  }
+}
