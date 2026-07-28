@@ -1,9 +1,11 @@
 import subprocess
 import re
-from datetime import datetime
 
 
-def get_recent_commits(limit=10):
+def get_recent_commits(limit=20):
+    """
+    Get recent git commits with changed file names
+    """
 
     command = [
         "git",
@@ -14,13 +16,16 @@ def get_recent_commits(limit=10):
         "--date=format:%d %B %Y"
     ]
 
-    result = subprocess.check_output(command).decode()
+    result = subprocess.check_output(command).decode("utf-8")
 
     return result
 
 
 
 def extract_problems(log):
+    """
+    Extract LeetCode problem folders from git history
+    """
 
     lines = log.split("\n")
 
@@ -28,29 +33,66 @@ def extract_problems(log):
 
     current_date = ""
 
+    seen = set()
+
+
     for line in lines:
 
         line = line.strip()
+
 
         if not line:
             continue
 
 
-        # Date line
+        # Detect date
         if re.match(r"\d{1,2} \w+ \d{4}", line):
+
             current_date = line
 
 
-        # Folder containing LeetCode problem
-        elif re.match(r"\d+-", line):
+        # Detect LeetSync folder
+        elif re.search(r"\d+-", line):
 
             folder = line.split("/")[0]
 
-            name = folder.replace("-", " ")
 
-            problems.append(
-                (current_date, name.title())
+            match = re.match(
+                r"(\d+)-(.*)",
+                folder
             )
+
+
+            if match:
+
+                number = match.group(1)
+
+                title = match.group(2)
+
+                title = (
+                    title
+                    .replace("-", " ")
+                    .title()
+                )
+
+
+                problem = (
+                    f"{number}. {title}"
+                )
+
+
+                # Remove duplicates
+                if problem not in seen:
+
+                    problems.append(
+                        (
+                            current_date,
+                            problem
+                        )
+                    )
+
+                    seen.add(problem)
+
 
 
     return problems[:10]
@@ -64,38 +106,75 @@ def create_table(problems):
 |---|---|
 """
 
+
     for date, problem in problems:
 
         table += (
             f"| {date} | {problem} |\n"
         )
 
+
     return table
 
 
 
-log = get_recent_commits()
+def update_readme(table):
 
-problems = extract_problems(log)
+    with open(
+        "README.md",
+        "r",
+        encoding="utf-8"
+    ) as file:
 
-table = create_table(problems)
-
-
-
-with open("README.md", encoding="utf-8") as f:
-    readme = f.read()
-
-
-readme = re.sub(
-    r"<!-- START_RECENT -->.*?<!-- END_RECENT -->",
-    f"<!-- START_RECENT -->\n\n{table}\n<!-- END_RECENT -->",
-    readme,
-    flags=re.S
-)
+        readme = file.read()
 
 
-with open("README.md","w",encoding="utf-8") as f:
-    f.write(readme)
+
+    updated = re.sub(
+        r"<!-- START_RECENT -->.*?<!-- END_RECENT -->",
+        (
+            "<!-- START_RECENT -->\n\n"
+            + table +
+            "\n<!-- END_RECENT -->"
+        ),
+        readme,
+        flags=re.S
+    )
 
 
-print("Recent problems updated")
+    with open(
+        "README.md",
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        file.write(updated)
+
+
+
+if __name__ == "__main__":
+
+    log = get_recent_commits()
+
+    problems = extract_problems(log)
+
+
+    if problems:
+
+        table = create_table(problems)
+
+    else:
+
+        table = """
+| Date | Problem |
+|---|---|
+| - | No recent problems found |
+"""
+
+
+    update_readme(table)
+
+
+    print(
+        "Recently solved problems updated successfully!"
+    )
