@@ -5,41 +5,23 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
 
 jobs:
-
   update-progress:
-
     runs-on: ubuntu-latest
 
-
-    permissions:
-      contents: write
-
-
     steps:
+      - uses: actions/checkout@v4
 
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Update README progress
+        run: python scripts/update_progress.py
 
-
-      - name: Run progress tracker
+      - name: Commit changes
         run: |
-          python scripts/update_progress.py
-
-
-      - name: Commit README update
-        run: |
-
-          git config --global user.name "github-actions"
-
-          git config --global user.email "github-actions@github.com"
-
-
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add README.md
-
-
           git commit -m "Update DSA progress tracker" || exit 0
-
-
           git push
