@@ -39,7 +39,7 @@ For every problem, I maintain:
 
 ---
 
-# 📊 LeetCode Progress
+# 📊 Coding Progress
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=Baloo&ext=heatmap" />
