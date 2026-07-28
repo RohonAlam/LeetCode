@@ -1,0 +1,64 @@
+
+<svg width="500" height="220" 
+xmlns="http://www.w3.org/2000/svg">
+
+<rect width="500" height="220"
+rx="15"
+fill="#161b22"/>
+
+
+<text x="40" y="50"
+fill="white"
+font-size="28"
+font-family="Arial">
+🔥 LeetCode Streak
+</text>
+
+
+<text x="70" y="110"
+fill="#58a6ff"
+font-size="45"
+font-family="Arial">
+1
+</text>
+
+
+<text x="50" y="145"
+fill="white"
+font-size="18">
+Current Streak
+</text>
+
+
+
+<text x="240" y="110"
+fill="#58a6ff"
+font-size="45"
+font-family="Arial">
+4
+</text>
+
+
+<text x="230" y="145"
+fill="white"
+font-size="18">
+Longest Streak
+</text>
+
+
+
+<text x="70" y="190"
+fill="#3fb950"
+font-size="18">
+Active Days: 15
+</text>
+
+
+<text x="280" y="190"
+fill="#3fb950"
+font-size="18">
+Solved: 72
+</text>
+
+
+</svg>
