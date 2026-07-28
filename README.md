@@ -49,29 +49,27 @@ Language Used:
 
 <!-- START_PROGRESS -->
 
+| Topic | Completed | Total | Progress |
+|---|---:|---:|---|
+| Arrays | 19 | 25 | ███████░░░ 76% |
+| Binary Search | 4 | 7 | █████░░░░░ 57% |
+| Strings | 8 | 12 | ██████░░░░ 66% |
+| Recursion & Backtracking | 0 | 11 | ░░░░░░░░░░ 0% |
+| Linked List | 0 | 13 | ░░░░░░░░░░ 0% |
+| Stack & Queue | 0 | 15 | ░░░░░░░░░░ 0% |
+| Binary Trees | 0 | 24 | ░░░░░░░░░░ 0% |
+| Bst | 0 | 15 | ░░░░░░░░░░ 0% |
+| Heaps | 0 | 6 | ░░░░░░░░░░ 0% |
+| Trie | 0 | 5 | ░░░░░░░░░░ 0% |
+| Graph | 0 | 26 | ░░░░░░░░░░ 0% |
+| Dp | 0 | 21 | ░░░░░░░░░░ 0% |
+| Greedy | 0 | 6 | ░░░░░░░░░░ 0% |
 
-| Topic | Problems | Progress |
-|---|---|---|
-### Total Problems Solved: **18**
-| Arrays | 10 | █████░░░░░ 55% |
+### Overall Progress
 
-| Binary Search | 1 | ░░░░░░░░░░ 5% |
+**31/186 Problems Completed**
 
-| Hashing | 1 | ░░░░░░░░░░ 5% |
-
-| Sliding Window | 1 | ░░░░░░░░░░ 5% |
-
-| Two Pointer | 1 | ░░░░░░░░░░ 5% |
-
-| Matrix | 0 | ░░░░░░░░░░ 0% |
-
-| Linked List | 0 | ░░░░░░░░░░ 0% |
-
-| Trees | 0 | ░░░░░░░░░░ 0% |
-
-| Graphs | 0 | ░░░░░░░░░░ 0% |
-
-| Dynamic Programming | 0 | ░░░░░░░░░░ 0% |
+`16%`
 
 
 <!-- END_PROGRESS -->
