@@ -116,17 +116,9 @@ For every problem, I maintain:
 
 # 🧠 Problem Solving Patterns
 
-| Pattern | Problems |
-|---|---|
-| Two Pointer | 11, 15, 18 |
-| Sliding Window | 3 |
-| Binary Search | 33, 74, 540, 852 |
-| Kadane's Algorithm | 53 |
-| Floyd Cycle Detection | 287 |
-| Merge Intervals | 56 |
-| Dutch National Flag Algorithm | 75 |
+<!-- START_PATTERNS -->
 
----
+<!-- END_PATTERNS -->
 
 # 🛣️ DSA Roadmap
 
