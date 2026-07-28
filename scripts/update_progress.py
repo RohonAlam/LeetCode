@@ -129,8 +129,7 @@ for topic,count in counts.items():
     percentage = int((count/max(total,1))*100)
 
     output.append(
-        f"| {topic} | {count} | "
-        f"{progress_bar(count)} {percentage}% |\n"
+        f"| {topic} | {count} | {progress_bar(count)} {percentage}% |\n\n"
     )
 
 
