@@ -39,6 +39,7 @@ Language Used:
 
 | Date | Problem |
 |---|---|
+| 28 July 2026 | 540. Single Element In A Sorted Array |
 
 <!-- END_RECENT -->
 
