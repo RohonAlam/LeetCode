@@ -91,18 +91,19 @@ For every problem, I maintain:
 | Linked List | 0 | 13 | ░░░░░░░░░░ 0% |
 | Stack & Queue | 0 | 15 | ░░░░░░░░░░ 0% |
 | Binary Trees | 0 | 24 | ░░░░░░░░░░ 0% |
-| Binary Search Tree | 0 | 15 | ░░░░░░░░░░ 0% |
+| Bst | 0 | 15 | ░░░░░░░░░░ 0% |
 | Heaps | 0 | 6 | ░░░░░░░░░░ 0% |
 | Trie | 0 | 5 | ░░░░░░░░░░ 0% |
-| Graphs | 0 | 26 | ░░░░░░░░░░ 0% |
-| Dynamic Programming | 0 | 21 | ░░░░░░░░░░ 0% |
+| Graph | 0 | 26 | ░░░░░░░░░░ 0% |
+| Dp | 0 | 21 | ░░░░░░░░░░ 0% |
 | Greedy | 0 | 6 | ░░░░░░░░░░ 0% |
 
 ### Overall Progress
 
-**31 / 186 Problems Completed**
+**31/186 Problems Completed**
 
-`█████░░░░░ 16%`
+`16%`
+
 
 <!-- END_PROGRESS -->
 
