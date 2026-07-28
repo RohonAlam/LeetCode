@@ -1,0 +1,44 @@
+name: Update Recent Problems
+
+on:
+  push:
+    branches:
+      - main
+
+
+permissions:
+  contents: write
+
+
+jobs:
+
+  update:
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 50
+
+
+    - name: Update Recent Problems
+      run: |
+        python scripts/update_recent.py
+
+
+    - name: Commit README
+      run: |
+
+        git config user.name github-actions
+
+        git config user.email github-actions@github.com
+
+        git add README.md
+
+        git commit -m "Update recent solved problems" || exit 0
+
+        git push
