@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Data Structures & Algorithms Journey
 
 <p align="center">
