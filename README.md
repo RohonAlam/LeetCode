@@ -36,6 +36,10 @@ Language Used:
 
 <!-- START_RECENT -->
 
+
+| Date | Problem |
+|---|---|
+
 <!-- END_RECENT -->
 
 # 📊 LeetCode Progress
