@@ -1,4 +1,5 @@
 import requests
+import json
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -7,33 +8,33 @@ USERNAME = "rohon97"
 
 
 QUERY = """
-query userProfileCalendar($username: String!, $year: Int) {
+query userProfileCalendar($username: String!) {
   matchedUser(username: $username) {
+
     submitStatsGlobal {
       acSubmissionNum {
         difficulty
         count
       }
     }
-    userCalendar(year: $year) {
+
+    userCalendar {
       submissionCalendar
     }
+
   }
 }
 """
 
 
-def get_submission_data():
-
-    year = datetime.now().year
+def get_leetcode_data():
 
     response = requests.post(
         "https://leetcode.com/graphql",
         json={
             "query": QUERY,
             "variables": {
-                "username": USERNAME,
-                "year": year
+                "username": USERNAME
             }
         },
         headers={
@@ -41,13 +42,18 @@ def get_submission_data():
         }
     )
 
-    return response.json()["data"]["matchedUser"]
+    response.raise_for_status()
+
+    data = response.json()
+
+    return data["data"]["matchedUser"]
 
 
 
-def calculate_streak(calendar):
+def calculate_streaks(calendar):
 
-    dates = []
+    active_days = []
+
 
     for timestamp, count in calendar.items():
 
@@ -57,93 +63,114 @@ def calculate_streak(calendar):
                 int(timestamp)
             ).date()
 
-            dates.append(date)
+            active_days.append(date)
 
 
-    dates.sort()
+    active_days.sort()
 
 
-    longest = 0
-    current = 0
+    if not active_days:
+        return 0, 0, 0
+
+
+    active_set = set(active_days)
+
+
+    # -------------------------
+    # Current Streak
+    # -------------------------
+
+    current_streak = 0
 
     today = datetime.today().date()
 
 
-    date_set = set(dates)
+    while today in active_set:
+
+        current_streak += 1
+
+        today -= timedelta(days=1)
 
 
-    # Current streak
 
-    day = today
+    # -------------------------
+    # Longest Streak
+    # -------------------------
 
-    while day in date_set:
+    longest_streak = 1
 
-        current += 1
-        day -= timedelta(days=1)
-
-
-    # Longest streak
-
-    temp = 0
-    previous = None
+    temp_streak = 1
 
 
-    for day in dates:
+    for i in range(1, len(active_days)):
 
-        if previous and day == previous + timedelta(days=1):
+        if (
+            active_days[i]
+            ==
+            active_days[i-1] + timedelta(days=1)
+        ):
 
-            temp += 1
+            temp_streak += 1
 
         else:
 
-            temp = 1
+            temp_streak = 1
 
 
-        longest = max(
-            longest,
-            temp
+        longest_streak = max(
+            longest_streak,
+            temp_streak
         )
 
-        previous = day
+
+    return (
+        current_streak,
+        longest_streak,
+        len(active_days)
+    )
 
 
-    return current, longest, len(dates)
 
-
-
-def create_svg(
-    current,
-    longest,
-    active,
-    solved
+def generate_svg(
+        current,
+        longest,
+        active,
+        solved
 ):
 
+
     svg = f"""
-<svg width="500" height="220" 
+<svg width="500" height="220"
 xmlns="http://www.w3.org/2000/svg">
 
-<rect width="500" height="220"
-rx="15"
+
+<rect width="500"
+height="220"
+rx="20"
 fill="#161b22"/>
 
 
-<text x="40" y="50"
+<text x="50"
+y="55"
 fill="white"
-font-size="28"
+font-size="30"
 font-family="Arial">
 🔥 LeetCode Streak
 </text>
 
 
-<text x="70" y="110"
+
+<text x="120"
+y="110"
 fill="#58a6ff"
-font-size="45"
+font-size="50"
 font-family="Arial">
 {current}
 </text>
 
 
-<text x="50" y="145"
+<text x="80"
+y="145"
 fill="white"
 font-size="18">
 Current Streak
@@ -151,15 +178,17 @@ Current Streak
 
 
 
-<text x="240" y="110"
+<text x="350"
+y="110"
 fill="#58a6ff"
-font-size="45"
+font-size="50"
 font-family="Arial">
 {longest}
 </text>
 
 
-<text x="230" y="145"
+<text x="300"
+y="145"
 fill="white"
 font-size="18">
 Longest Streak
@@ -167,14 +196,17 @@ Longest Streak
 
 
 
-<text x="70" y="190"
+<text x="80"
+y="190"
 fill="#3fb950"
 font-size="18">
 Active Days: {active}
 </text>
 
 
-<text x="280" y="190"
+
+<text x="310"
+y="190"
 fill="#3fb950"
 font-size="18">
 Solved: {solved}
@@ -185,9 +217,7 @@ Solved: {solved}
 """
 
 
-    Path(
-        "assets"
-    ).mkdir(
+    Path("assets").mkdir(
         exist_ok=True
     )
 
@@ -204,40 +234,49 @@ Solved: {solved}
 
 def main():
 
-    data = get_submission_data()
+    user = get_leetcode_data()
 
 
-    calendar = (
-        data["userCalendar"]
+
+    # -------------------------
+    # Match LeetCard solved count
+    # -------------------------
+
+    solved = (
+        user["submitStatsGlobal"]
+        ["acSubmissionNum"][0]
+        ["count"]
+    )
+
+
+
+    # -------------------------
+    # Full submission calendar
+    # -------------------------
+
+    calendar = json.loads(
+        user["userCalendar"]
         ["submissionCalendar"]
     )
 
 
-    import json
 
-    calendar = json.loads(
+    current, longest, active = calculate_streaks(
         calendar
     )
 
 
 
-    current,longest,active = calculate_streak(
-        calendar
-    )
-
-
-    solved = sum(
-        item["count"]
-        for item in
-        data["submitStatsGlobal"]["acSubmissionNum"]
-    )
-
-
-    create_svg(
+    generate_svg(
         current,
         longest,
         active,
         solved
+    )
+
+
+    print(
+        "LeetCode streak card updated successfully"
     )
 
 
