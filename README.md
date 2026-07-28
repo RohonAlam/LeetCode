@@ -49,18 +49,30 @@ Language Used:
 
 <!-- START_PROGRESS -->
 
-| Topic | Problems Solved | Progress |
+
+| Topic | Problems | Progress |
 |---|---|---|
-| Arrays | 10 | █████░░░░░ 20% |
+### Total Problems Solved: **18**
+| Arrays | 10 | █████░░░░░ 55% |
+
 | Binary Search | 1 | ░░░░░░░░░░ 5% |
+
 | Hashing | 1 | ░░░░░░░░░░ 5% |
-| Sliding Window | 1 | ░░░░░░░░░░ 7% |
-| Two Pointer | 1 | ░░░░░░░░░░ 7% |
+
+| Sliding Window | 1 | ░░░░░░░░░░ 5% |
+
+| Two Pointer | 1 | ░░░░░░░░░░ 5% |
+
 | Matrix | 0 | ░░░░░░░░░░ 0% |
+
 | Linked List | 0 | ░░░░░░░░░░ 0% |
+
 | Trees | 0 | ░░░░░░░░░░ 0% |
+
 | Graphs | 0 | ░░░░░░░░░░ 0% |
+
 | Dynamic Programming | 0 | ░░░░░░░░░░ 0% |
+
 
 <!-- END_PROGRESS -->
 
