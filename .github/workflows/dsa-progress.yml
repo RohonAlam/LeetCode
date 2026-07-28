@@ -1,0 +1,45 @@
+name: Update DSA Progress
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+
+  update-progress:
+
+    runs-on: ubuntu-latest
+
+
+    permissions:
+      contents: write
+
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Run progress tracker
+        run: |
+          python scripts/update_progress.py
+
+
+      - name: Commit README update
+        run: |
+
+          git config --global user.name "github-actions"
+
+          git config --global user.email "github-actions@github.com"
+
+
+          git add README.md
+
+
+          git commit -m "Update DSA progress tracker" || exit 0
+
+
+          git push
