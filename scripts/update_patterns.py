@@ -5,14 +5,13 @@ import re
 
 with open(
     "data/problem_patterns.json",
+    "r",
     encoding="utf-8"
 ) as f:
     patterns = json.load(f)
 
 
-
-result = {}
-
+pattern_problems = {}
 
 
 for folder in os.listdir("."):
@@ -21,26 +20,33 @@ for folder in os.listdir("."):
         continue
 
 
+    # LeetSync format:
+    # 852-peak-index-in-a-mountain-array
+
     match = re.match(
-        r"(\d+)-(.*)",
+        r"^\d+-(.*)",
         folder
     )
 
 
     if match:
 
-        problem_id = match.group(1)
+        slug = match.group(1)
 
 
-        if problem_id in patterns:
+        if slug in patterns:
 
-            pattern = patterns[problem_id]
-
-            if pattern not in result:
-                result[pattern] = []
+            pattern = patterns[slug]
 
 
-            result[pattern].append(problem_id)
+            if pattern not in pattern_problems:
+                pattern_problems[pattern] = []
+
+
+            number = folder.split("-")[0]
+
+
+            pattern_problems[pattern].append(number)
 
 
 
@@ -50,8 +56,7 @@ table = """
 """
 
 
-
-for pattern, problems in result.items():
+for pattern, problems in pattern_problems.items():
 
     table += (
         f"| {pattern} | "
@@ -62,14 +67,12 @@ for pattern, problems in result.items():
 
 with open(
     "README.md",
+    "r",
     encoding="utf-8"
 ) as f:
 
     readme = f.read()
 
-
-
-import re
 
 
 readme = re.sub(
@@ -94,8 +97,4 @@ with open(
     f.write(readme)
 
 
-
-print("Patterns updated")
-
-
-
+print("Problem patterns updated")
