@@ -1,0 +1,66 @@
+name: Update README Dashboard
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+
+jobs:
+
+  update:
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+
+    - name: Update DSA Progress
+      run: |
+        python scripts/update_progress.py
+
+
+    - name: Update Patterns
+      run: |
+        python scripts/update_patterns.py
+
+
+    - name: Update Recent Problems
+      run: |
+        python scripts/update_recent.py
+
+
+    - name: Update LeetCode Streak
+      run: |
+        python scripts/update_leetcode_streak.py
+
+
+    - name: Commit changes
+      run: |
+
+        git config user.name github-actions
+
+        git config user.email github-actions@github.com
+
+        git add .
+
+        git commit -m "Update coding dashboard" || exit 0
+
+        git push
