@@ -32,6 +32,11 @@ Language Used:
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
 ---
+## 🔥 Recently Solved Problems
+
+<!-- START_RECENT -->
+
+<!-- END_RECENT -->
 
 # 📊 LeetCode Progress
 
