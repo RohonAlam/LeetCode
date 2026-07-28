@@ -118,6 +118,10 @@ For every problem, I maintain:
 
 <!-- START_PATTERNS -->
 
+
+| Pattern | Problems |
+|---|---|
+
 <!-- END_PATTERNS -->
 
 # 🛣️ DSA Roadmap
