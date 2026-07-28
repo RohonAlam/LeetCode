@@ -1,50 +1,155 @@
-
+import os
 import json
 import re
 
-with open("data/dsa_progress.json", encoding="utf-8") as f:
-    data = json.load(f)
 
-rows = []
-total_done = 0
-total_questions = 0
+with open(
+    "data/problem_topics.json",
+    "r",
+    encoding="utf-8"
+) as file:
 
-for topic, info in data.items():
-    solved = len(info["solved"])
-    total = info["total"]
-    total_done += solved
-    total_questions += total
+    problem_topics = json.load(file)
 
-    percent = int((solved / total) * 100) if total else 0
-    filled = percent // 10
-    bar = "█" * filled + "░" * (10-filled)
 
-    rows.append(
-        f"| {topic} | {solved} | {total} | {bar} {percent}% |"
+
+topic_count = {}
+
+
+for topic in problem_topics.values():
+
+    topic_count[topic] = 0
+
+
+
+solved_problems = []
+
+
+
+# Scan repository folders
+
+for item in os.listdir("."):
+
+    if not os.path.isdir(item):
+        continue
+
+
+    # LeetSync folder format:
+    # 852-peak-index-in-a-mountain-array
+
+    match = re.match(
+        r"^\d+-(.*)",
+        item
     )
 
-overall = int((total_done / total_questions) * 100)
 
-table = """| Topic | Completed | Total | Progress |
-|---|---:|---:|---|
-""" + "\n".join(rows) + f"""
+    if match:
 
-### Overall Progress
+        slug = match.group(1)
 
-**{total_done}/{total_questions} Problems Completed**
 
-`{overall}%`
+        solved_problems.append(
+            slug
+        )
+
+
+        if slug in problem_topics:
+
+            topic = problem_topics[slug]
+
+            topic_count[topic] += 1
+
+
+
+total = len(solved_problems)
+
+
+
+def progress_bar(value):
+
+    if total == 0:
+        return "░░░░░░░░░░"
+
+
+    percentage = int(
+        (value / total) * 100
+    )
+
+
+    filled = percentage // 10
+
+
+    return (
+        "█" * filled +
+        "░" * (10-filled)
+    )
+
+
+
+table = """
+| Topic | Problems Uploaded | Progress |
+|---|---:|---|
 """
 
-with open("README.md", encoding="utf-8") as f:
-    readme = f.read()
 
-readme = re.sub(
+for topic, count in topic_count.items():
+
+    percentage = (
+        int((count / total) * 100)
+        if total else 0
+    )
+
+
+    table += (
+        f"| {topic} | {count} | "
+        f"{progress_bar(count)} {percentage}% |\n"
+    )
+
+
+
+table += f"""
+
+### Repository Progress
+
+**{total} Problems Uploaded**
+
+"""
+
+
+
+with open(
+    "README.md",
+    "r",
+    encoding="utf-8"
+) as file:
+
+    readme = file.read()
+
+
+
+updated = re.sub(
     r"<!-- START_PROGRESS -->.*?<!-- END_PROGRESS -->",
-    "<!-- START_PROGRESS -->\n\n" + table + "\n\n<!-- END_PROGRESS -->",
+    (
+        "<!-- START_PROGRESS -->\n\n"
+        + table +
+        "\n<!-- END_PROGRESS -->"
+    ),
     readme,
     flags=re.S
 )
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme)
+
+
+with open(
+    "README.md",
+    "w",
+    encoding="utf-8"
+) as file:
+
+    file.write(updated)
+
+
+
+print(
+    "DSA Progress Updated"
+)
