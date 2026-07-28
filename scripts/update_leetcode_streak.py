@@ -54,7 +54,6 @@ def calculate_streaks(calendar):
 
     active_days = []
 
-
     for timestamp, count in calendar.items():
 
         if int(count) > 0:
@@ -67,7 +66,6 @@ def calculate_streaks(calendar):
 
 
     active_days.sort()
-
 
     if not active_days:
         return 0, 0, 0
@@ -82,14 +80,14 @@ def calculate_streaks(calendar):
 
     current_streak = 0
 
-    today = datetime.today().date()
+    day = active_days[-1]
 
 
-    while today in active_set:
+    while day in active_set:
 
         current_streak += 1
 
-        today -= timedelta(days=1)
+        day -= timedelta(days=1)
 
 
 
@@ -99,27 +97,30 @@ def calculate_streaks(calendar):
 
     longest_streak = 1
 
-    temp_streak = 1
+    temp = 1
 
 
     for i in range(1, len(active_days)):
 
-        if (
+        difference = (
             active_days[i]
-            ==
-            active_days[i-1] + timedelta(days=1)
-        ):
+            -
+            active_days[i-1]
+        ).days
 
-            temp_streak += 1
+
+        if difference == 1:
+
+            temp += 1
 
         else:
 
-            temp_streak = 1
+            temp = 1
 
 
         longest_streak = max(
             longest_streak,
-            temp_streak
+            temp
         )
 
 
@@ -128,7 +129,6 @@ def calculate_streaks(calendar):
         longest_streak,
         len(active_days)
     )
-
 
 
 def generate_svg(
