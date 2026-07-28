@@ -44,7 +44,11 @@ For every problem, I maintain:
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/rohon97?theme=dark&font=Baloo&ext=heatmap" />
 </p>
+<p align="center">
 
+<img src="./assets/leetcode-streak.svg">
+
+</p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=RohonAlam&theme=tokyonight&hide_border=true"/>
 </p>
