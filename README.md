@@ -6,16 +6,26 @@
   Includes problem-solving approaches, intuition, optimized solutions, and detailed notes.
 </p>
 
+<p align="center">
+
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-31-blue)
+![DSA Sheet](https://img.shields.io/badge/DSA%20Sheet-Apna%20College-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+
+</p>
+
 ---
 
-## 📌 About This Repository
+# 📌 About This Repository
 
 This repository contains my preparation notes and solutions for:
 
 - Data Structures
 - Algorithms
 - Problem-solving patterns
-- Interview preparation
+- Technical interview preparation
+
+I am following the **Apna College DSA Placement Sheet** and documenting every problem with detailed notes.
 
 For every problem, I maintain:
 
@@ -27,35 +37,7 @@ For every problem, I maintain:
 - ✅ Complexity Analysis
 - ✅ Key Takeaways
 
-Language Used:
-
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-
 ---
-## 🔥 Recently Solved Problems
-
-<!-- START_RECENT -->
-
-
-| Date | Problem |
-|---|---|
-| 28 July 2026 | 33. Search In Rotated Sorted Array |
-| 28 July 2026 | 882. Peak Index In A Mountain Array |
-| 28 July 2026 | 540. Single Element In A Sorted Array |
-| 14 July 2026 | 3. Longest Substring Without Repeating Characters |
-| 14 July 2026 | 287. Find The Duplicate Number |
-| 13 July 2026 | 56. Merge Intervals |
-| 12 July 2026 | 53. Maximum Subarray |
-| 12 July 2026 | 50. Powx N |
-| 12 July 2026 | 11. Container With Most Water |
-| 12 July 2026 | 75. Sort Colors |
-| 12 July 2026 | 15. 3Sum |
-| 12 July 2026 | 18. 4Sum |
-| 12 July 2026 | 74. Search A 2D Matrix |
-| 11 July 2026 | 169. Majority Element |
-| 11 July 2026 | 3227. Find Missing And Repeated Values |
-
-<!-- END_RECENT -->
 
 # 📊 LeetCode Progress
 
@@ -64,8 +46,34 @@ Language Used:
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=RohonAlam&show_icons=true&theme=tokyonight"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=RohonAlam&show_icons=true&theme=tokyonight"/>
 </p>
+
+---
+
+# 🔥 Recently Solved Problems
+
+<!-- START_RECENT -->
+
+| Date | Problem | Topic |
+|---|---|---|
+| 28 July 2026 | 852. Peak Index in a Mountain Array | Binary Search |
+| 28 July 2026 | 540. Single Element in a Sorted Array | Binary Search |
+| 28 July 2026 | 33. Search in Rotated Sorted Array | Binary Search |
+| 14 July 2026 | 3. Longest Substring Without Repeating Characters | Sliding Window |
+| 14 July 2026 | 287. Find the Duplicate Number | Arrays |
+| 13 July 2026 | 56. Merge Intervals | Arrays |
+| 12 July 2026 | 53. Maximum Subarray | Arrays |
+| 12 July 2026 | 50. Pow(x, n) | Binary Search |
+| 12 July 2026 | 11. Container With Most Water | Two Pointer |
+| 12 July 2026 | 75. Sort Colors | Arrays |
+| 12 July 2026 | 15. 3Sum | Two Pointer |
+| 12 July 2026 | 18. 4Sum | Two Pointer |
+| 12 July 2026 | 74. Search a 2D Matrix | Binary Search |
+| 11 July 2026 | 169. Majority Element | Hashing |
+| 11 July 2026 | 3227. Find Missing and Repeated Values | Arrays |
+
+<!-- END_RECENT -->
 
 ---
 
@@ -82,56 +90,35 @@ Language Used:
 | Linked List | 0 | 13 | ░░░░░░░░░░ 0% |
 | Stack & Queue | 0 | 15 | ░░░░░░░░░░ 0% |
 | Binary Trees | 0 | 24 | ░░░░░░░░░░ 0% |
-| Bst | 0 | 15 | ░░░░░░░░░░ 0% |
+| Binary Search Tree | 0 | 15 | ░░░░░░░░░░ 0% |
 | Heaps | 0 | 6 | ░░░░░░░░░░ 0% |
 | Trie | 0 | 5 | ░░░░░░░░░░ 0% |
-| Graph | 0 | 26 | ░░░░░░░░░░ 0% |
-| Dp | 0 | 21 | ░░░░░░░░░░ 0% |
+| Graphs | 0 | 26 | ░░░░░░░░░░ 0% |
+| Dynamic Programming | 0 | 21 | ░░░░░░░░░░ 0% |
 | Greedy | 0 | 6 | ░░░░░░░░░░ 0% |
 
 ### Overall Progress
 
-**31/186 Problems Completed**
+**31 / 186 Problems Completed**
 
-`16%`
-
+`█████░░░░░ 16%`
 
 <!-- END_PROGRESS -->
 
 ---
 
-# 🧠 Topics Covered
+# 🧠 Problem Solving Patterns
 
-## Arrays
-
-Problems:
-
-- 53. Maximum Subarray
-- 56. Merge Intervals
-- 75. Sort Colors
-- 88. Merge Sorted Array
-- 238. Product of Array Except Self
-
----
-
-## Binary Search
-
-Problems:
-
-- 33. Search in Rotated Sorted Array
-- 540. Single Element in a Sorted Array
-- 852. Peak Index in a Mountain Array
+| Pattern | Problems |
+|---|---|
+| Two Pointer | 11, 15, 18 |
+| Sliding Window | 3 |
+| Binary Search | 33, 74, 540, 852 |
+| Kadane's Algorithm | 53 |
+| Floyd Cycle Detection | 287 |
+| Merge Intervals | 56 |
+| Dutch National Flag Algorithm | 75 |
 
 ---
 
-## Two Pointer
-
-Problems:
-
-- 11. Container With Most Water
-- 15. 3Sum
-- 18. 4Sum
-
----
-
-# 📂 Repository Structure
+# 🛣️ DSA Roadmap
