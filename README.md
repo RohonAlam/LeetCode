@@ -68,6 +68,7 @@ For every problem, I maintain:
 | 30 July 2026 | 242. Valid Anagram |
 | 30 July 2026 | 151. Reverse Words In A String |
 | 30 July 2026 | 2021. Remove All Occurrences Of A Substring |
+| 30 July 2026 | 567. Permutation In String |
 | 28 July 2026 | 33. Search In Rotated Sorted Array |
 | 28 July 2026 | 882. Peak Index In A Mountain Array |
 | 28 July 2026 | 540. Single Element In A Sorted Array |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 12 July 2026 | 53. Maximum Subarray |
 | 12 July 2026 | 50. Powx N |
 | 12 July 2026 | 11. Container With Most Water |
-| 12 July 2026 | 75. Sort Colors |
 
 <!-- END_RECENT -->
 
@@ -90,12 +90,12 @@ For every problem, I maintain:
 
 | Topic | Problems Uploaded | Progress |
 |---|---:|---|
-| Arrays | 13 | █████░░░░░ 56% |
+| Arrays | 13 | █████░░░░░ 54% |
 | Heaps | 1 | ░░░░░░░░░░ 4% |
 | Dp | 1 | ░░░░░░░░░░ 4% |
 | Stack & Queue | 0 | ░░░░░░░░░░ 0% |
-| Binary Search | 3 | █░░░░░░░░░ 13% |
-| Strings | 4 | █░░░░░░░░░ 17% |
+| Binary Search | 3 | █░░░░░░░░░ 12% |
+| Strings | 5 | ██░░░░░░░░ 20% |
 | Trie | 1 | ░░░░░░░░░░ 4% |
 | Recursion & Backtracking | 0 | ░░░░░░░░░░ 0% |
 | Linked List | 0 | ░░░░░░░░░░ 0% |
@@ -107,7 +107,7 @@ For every problem, I maintain:
 
 ### Repository Progress
 
-**23 Problems Uploaded**
+**24 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
@@ -126,6 +126,7 @@ For every problem, I maintain:
 | Trie | 14 |
 | Binary Search | 74, 33 |
 | Strings | 242, 125 |
+| Backtracking | 567 |
 
 <!-- END_PATTERNS -->
 
