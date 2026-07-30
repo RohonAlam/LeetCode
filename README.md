@@ -64,6 +64,7 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 30 July 2026 | 125. Valid Palindrome |
+| 30 July 2026 | 14. Longest Common Prefix |
 | 28 July 2026 | 33. Search In Rotated Sorted Array |
 | 28 July 2026 | 882. Peak Index In A Mountain Array |
 | 28 July 2026 | 540. Single Element In A Sorted Array |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 12 July 2026 | 15. 3Sum |
 | 12 July 2026 | 18. 4Sum |
 | 12 July 2026 | 74. Search A 2D Matrix |
-| 11 July 2026 | 169. Majority Element |
 
 <!-- END_RECENT -->
 
