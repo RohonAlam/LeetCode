@@ -67,6 +67,7 @@ For every problem, I maintain:
 | 30 July 2026 | 14. Longest Common Prefix |
 | 30 July 2026 | 242. Valid Anagram |
 | 30 July 2026 | 151. Reverse Words In A String |
+| 30 July 2026 | 2021. Remove All Occurrences Of A Substring |
 | 28 July 2026 | 33. Search In Rotated Sorted Array |
 | 28 July 2026 | 882. Peak Index In A Mountain Array |
 | 28 July 2026 | 540. Single Element In A Sorted Array |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 12 July 2026 | 50. Powx N |
 | 12 July 2026 | 11. Container With Most Water |
 | 12 July 2026 | 75. Sort Colors |
-| 12 July 2026 | 15. 3Sum |
 
 <!-- END_RECENT -->
 
