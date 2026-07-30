@@ -5,7 +5,7 @@ class Solution:
         from collections import Counter
         return Counter(s) == Counter(t)
 """
-        # we can also use a constant array of size 256 , check all character freq and compare the arrays 
+        # we can also use a constant array of size 26 , check all character freq and compare the arrays 
 
         # using Sorting
         # return sorted(s) == sorted(t)
