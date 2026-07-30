@@ -1,6 +1,6 @@
 # Allocate Minimum Pages
 
-Solved
+https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 
 Difficulty: **Medium**Accuracy: **35.51%**Submissions: **431K+**Points: **4**Average Time: **35m**
 
