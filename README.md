@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 30 July 2026 | 125. Valid Palindrome |
 | 28 July 2026 | 33. Search In Rotated Sorted Array |
 | 28 July 2026 | 882. Peak Index In A Mountain Array |
 | 28 July 2026 | 540. Single Element In A Sorted Array |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 12 July 2026 | 18. 4Sum |
 | 12 July 2026 | 74. Search A 2D Matrix |
 | 11 July 2026 | 169. Majority Element |
-| 11 July 2026 | 3227. Find Missing And Repeated Values |
 
 <!-- END_RECENT -->
 
@@ -90,12 +90,12 @@ For every problem, I maintain:
 
 | Topic | Problems Uploaded | Progress |
 |---|---:|---|
-| Arrays | 13 | ███████░░░ 72% |
+| Arrays | 13 | ██████░░░░ 68% |
 | Heaps | 1 | ░░░░░░░░░░ 5% |
 | Dp | 1 | ░░░░░░░░░░ 5% |
 | Stack & Queue | 0 | ░░░░░░░░░░ 0% |
-| Binary Search | 3 | █░░░░░░░░░ 16% |
-| Strings | 0 | ░░░░░░░░░░ 0% |
+| Binary Search | 3 | █░░░░░░░░░ 15% |
+| Strings | 1 | ░░░░░░░░░░ 5% |
 | Trie | 0 | ░░░░░░░░░░ 0% |
 | Recursion & Backtracking | 0 | ░░░░░░░░░░ 0% |
 | Linked List | 0 | ░░░░░░░░░░ 0% |
@@ -107,7 +107,7 @@ For every problem, I maintain:
 
 ### Repository Progress
 
-**18 Problems Uploaded**
+**19 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
@@ -124,6 +124,7 @@ For every problem, I maintain:
 | Arrays | 136, 169 |
 | Two Pointer | 18, 11, 15 |
 | Binary Search | 74, 33 |
+| Strings | 125 |
 
 <!-- END_PATTERNS -->
 
