@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 31 July 2026 | 443. String Compression |
 | 30 July 2026 | 125. Valid Palindrome |
 | 30 July 2026 | 14. Longest Common Prefix |
 | 30 July 2026 | 242. Valid Anagram |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 13 July 2026 | 56. Merge Intervals |
 | 12 July 2026 | 53. Maximum Subarray |
 | 12 July 2026 | 50. Powx N |
-| 12 July 2026 | 11. Container With Most Water |
 
 <!-- END_RECENT -->
 
@@ -90,12 +90,12 @@ For every problem, I maintain:
 
 | Topic | Problems Uploaded | Progress |
 |---|---:|---|
-| Arrays | 13 | █████░░░░░ 54% |
+| Arrays | 13 | █████░░░░░ 52% |
 | Heaps | 1 | ░░░░░░░░░░ 4% |
 | Dp | 1 | ░░░░░░░░░░ 4% |
 | Stack & Queue | 0 | ░░░░░░░░░░ 0% |
 | Binary Search | 3 | █░░░░░░░░░ 12% |
-| Strings | 5 | ██░░░░░░░░ 20% |
+| Strings | 6 | ██░░░░░░░░ 24% |
 | Trie | 1 | ░░░░░░░░░░ 4% |
 | Recursion & Backtracking | 0 | ░░░░░░░░░░ 0% |
 | Linked List | 0 | ░░░░░░░░░░ 0% |
@@ -107,7 +107,7 @@ For every problem, I maintain:
 
 ### Repository Progress
 
-**24 Problems Uploaded**
+**25 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
@@ -125,7 +125,7 @@ For every problem, I maintain:
 | Two Pointer | 18, 11, 15 |
 | Trie | 14 |
 | Binary Search | 74, 33 |
-| Strings | 242, 125 |
+| Strings | 443, 242, 125 |
 | Backtracking | 567 |
 
 <!-- END_PATTERNS -->
