@@ -63,6 +63,8 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 03 August 2026 | 39. Combination Sum |
+| 02 August 2026 | 49. Group Anagrams |
 | 31 July 2026 | 443. String Compression |
 | 30 July 2026 | 125. Valid Palindrome |
 | 30 July 2026 | 14. Longest Common Prefix |
@@ -76,8 +78,6 @@ For every problem, I maintain:
 | 14 July 2026 | 3. Longest Substring Without Repeating Characters |
 | 14 July 2026 | 287. Find The Duplicate Number |
 | 13 July 2026 | 56. Merge Intervals |
-| 12 July 2026 | 53. Maximum Subarray |
-| 12 July 2026 | 50. Powx N |
 
 <!-- END_RECENT -->
 
