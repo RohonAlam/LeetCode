@@ -1,23 +1,28 @@
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
-        ans = []
 
-        def backtrack(start, subset):
-            ans.append(subset[:])
+        ans = []
+        temp = []
+
+        def backtrack(start):
+            ans.append(temp.copy())
 
             for i in range(start, len(nums)):
+
+                # Skip duplicate choices at the same recursion level
                 if i > start and nums[i] == nums[i - 1]:
                     continue
 
-                subset.append(nums[i])
-                backtrack(i + 1, subset)
-                subset.pop()
+                # Choose
+                temp.append(nums[i])
 
-        backtrack(0, [])
+                # Explore
+                backtrack(i + 1)
+
+                # Undo
+                temp.pop()
+
+        backtrack(0)
+
         return ans
-
-
-
-
-        
