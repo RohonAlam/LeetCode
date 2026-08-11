@@ -64,6 +64,7 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 11 August 2026 | 908. Middle Of The Linked List |
+| 11 August 2026 | 21. Merge Two Sorted Lists |
 | 06 August 2026 | 90. Subsets Ii |
 | 04 August 2026 | 40. Combination Sum Ii |
 | 04 August 2026 | 2662. Check Knight Tour Configuration |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 30 July 2026 | 2021. Remove All Occurrences Of A Substring |
 | 30 July 2026 | 567. Permutation In String |
 | 28 July 2026 | 33. Search In Rotated Sorted Array |
-| 28 July 2026 | 882. Peak Index In A Mountain Array |
 
 <!-- END_RECENT -->
 
