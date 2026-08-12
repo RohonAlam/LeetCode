@@ -24,7 +24,7 @@ y="110"
 fill="#58a6ff"
 font-size="50"
 font-family="Arial">
-8
+1
 </text>
 
 
@@ -59,7 +59,7 @@ Longest Streak
 y="190"
 fill="#3fb950"
 font-size="18">
-Active Days: 26
+Active Days: 27
 </text>
 
 
@@ -68,7 +68,7 @@ Active Days: 26
 y="190"
 fill="#3fb950"
 font-size="18">
-Solved: 42
+Solved: 46
 </text>
 
 
