@@ -64,6 +64,8 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 19 August 2026 | 2. Add Two Numbers |
+| 19 August 2026 | 92. Reverse Linked List Ii |
+| 19 August 2026 | 61. Rotate List |
 | 18 August 2026 | 142. Linked List Cycle Ii |
 | 18 August 2026 | 766. Flatten A Multilevel Doubly Linked List |
 | 18 August 2026 | 138. Copy List With Random Pointer |
@@ -76,8 +78,6 @@ For every problem, I maintain:
 | 04 August 2026 | 2662. Check Knight Tour Configuration |
 | 03 August 2026 | 39. Combination Sum |
 | 02 August 2026 | 49. Group Anagrams |
-| 31 July 2026 | 443. String Compression |
-| 30 July 2026 | 125. Valid Palindrome |
 
 <!-- END_RECENT -->
 
