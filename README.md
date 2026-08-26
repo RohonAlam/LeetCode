@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 27 August 2026 | 496. Next Greater Element I |
 | 19 August 2026 | 2. Add Two Numbers |
 | 19 August 2026 | 92. Reverse Linked List Ii |
 | 19 August 2026 | 61. Rotate List |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 06 August 2026 | 90. Subsets Ii |
 | 04 August 2026 | 40. Combination Sum Ii |
 | 04 August 2026 | 2662. Check Knight Tour Configuration |
-| 03 August 2026 | 39. Combination Sum |
 
 <!-- END_RECENT -->
 
