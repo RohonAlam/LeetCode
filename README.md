@@ -65,6 +65,7 @@ For every problem, I maintain:
 |---|---|
 | 29 August 2026 | 387. First Unique Character In A String |
 | 29 August 2026 | 2195. Time Needed To Buy Tickets |
+| 29 August 2026 | 503. Next Greater Element Ii |
 | 27 August 2026 | 496. Next Greater Element I |
 | 27 August 2026 | 20. Valid Parentheses |
 | 19 August 2026 | 2. Add Two Numbers |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 11 August 2026 | 908. Middle Of The Linked List |
 | 11 August 2026 | 21. Merge Two Sorted Lists |
 | 11 August 2026 | 234. Palindrome Linked List |
-| 11 August 2026 | 141. Linked List Cycle |
 
 <!-- END_RECENT -->
 
