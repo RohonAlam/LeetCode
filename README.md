@@ -63,7 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
-| 28 August 2026 | 387. First Unique Character In A String |
+| 29 August 2026 | 387. First Unique Character In A String |
 | 27 August 2026 | 496. Next Greater Element I |
 | 27 August 2026 | 20. Valid Parentheses |
 | 19 August 2026 | 2. Add Two Numbers |
