@@ -90,24 +90,24 @@ For every problem, I maintain:
 
 | Topic | Problems Uploaded | Progress |
 |---|---:|---|
-| Arrays | 13 | ██░░░░░░░░ 26% |
-| Heaps | 1 | ░░░░░░░░░░ 2% |
-| Dp | 1 | ░░░░░░░░░░ 2% |
-| Stack & Queue | 8 | █░░░░░░░░░ 16% |
-| Binary Search | 3 | ░░░░░░░░░░ 6% |
-| Strings | 7 | █░░░░░░░░░ 14% |
-| Trie | 1 | ░░░░░░░░░░ 2% |
-| Recursion & Backtracking | 4 | ░░░░░░░░░░ 8% |
-| Linked List | 10 | ██░░░░░░░░ 20% |
-| Graph | 1 | ░░░░░░░░░░ 2% |
-| Binary Trees | 1 | ░░░░░░░░░░ 2% |
+| Arrays | 13 | ██░░░░░░░░ 25% |
+| Heaps | 1 | ░░░░░░░░░░ 1% |
+| Dp | 1 | ░░░░░░░░░░ 1% |
+| Stack & Queue | 8 | █░░░░░░░░░ 15% |
+| Binary Search | 3 | ░░░░░░░░░░ 5% |
+| Strings | 7 | █░░░░░░░░░ 13% |
+| Trie | 1 | ░░░░░░░░░░ 1% |
+| Recursion & Backtracking | 4 | ░░░░░░░░░░ 7% |
+| Linked List | 10 | █░░░░░░░░░ 19% |
+| Graph | 1 | ░░░░░░░░░░ 1% |
+| Binary Trees | 2 | ░░░░░░░░░░ 3% |
 | Bst | 0 | ░░░░░░░░░░ 0% |
 | Greedy | 0 | ░░░░░░░░░░ 0% |
 
 
 ### Repository Progress
 
-**50 Problems Uploaded**
+**51 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
