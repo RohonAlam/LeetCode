@@ -100,14 +100,14 @@ For every problem, I maintain:
 | Recursion & Backtracking | 4 | ░░░░░░░░░░ 7% |
 | Linked List | 10 | █░░░░░░░░░ 19% |
 | Graph | 1 | ░░░░░░░░░░ 1% |
-| Binary Trees | 2 | ░░░░░░░░░░ 3% |
+| Binary Trees | 3 | ░░░░░░░░░░ 5% |
 | Bst | 0 | ░░░░░░░░░░ 0% |
 | Greedy | 0 | ░░░░░░░░░░ 0% |
 
 
 ### Repository Progress
 
-**51 Problems Uploaded**
+**52 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
