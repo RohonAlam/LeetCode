@@ -64,6 +64,9 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 31 August 2026 | 94. Binary Tree Inorder Traversal |
+| 31 August 2026 | 145. Binary Tree Postorder Traversal |
+| 31 August 2026 | 101. Symmetric Tree |
+| 31 August 2026 | 799. Minimum Distance Between Bst Nodes |
 | 29 August 2026 | 387. First Unique Character In A String |
 | 29 August 2026 | 2195. Time Needed To Buy Tickets |
 | 29 August 2026 | 503. Next Greater Element Ii |
@@ -75,9 +78,6 @@ For every problem, I maintain:
 | 19 August 2026 | 2. Add Two Numbers |
 | 19 August 2026 | 92. Reverse Linked List Ii |
 | 19 August 2026 | 61. Rotate List |
-| 19 August 2026 | 225. Implement Stack Using Queues |
-| 18 August 2026 | 142. Linked List Cycle Ii |
-| 18 August 2026 | 766. Flatten A Multilevel Doubly Linked List |
 
 <!-- END_RECENT -->
 
