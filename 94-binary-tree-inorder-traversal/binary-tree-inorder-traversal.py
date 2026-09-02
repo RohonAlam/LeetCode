@@ -6,6 +6,35 @@
 #         self.right = right
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        # Morris Inorder traversal 
+
+        res = []
+
+        current = root
+
+        while current :
+            # situation 1 : No left node
+            if not current.left :
+                res.append(current.val)
+                current = current.right
+            else :
+                pred = current.left
+
+                # Threads doesn't exist
+
+                while pred.right and pred.right != current :
+                    pred = pred.right
+                
+                if pred.right == None:
+                    pred.right = current
+                    current = current.left
+                else:
+                    pred.right = None
+                    res.append(current.val)
+                    current = current.right
+        
+        return res
+
         #implementation 1 : using a function
         """
         res = []
@@ -22,6 +51,7 @@ class Solution:
         """
         #Implementation 2 : using while loop
 
+        """
         res , stack = [] , []
         curr = root
 
@@ -37,4 +67,6 @@ class Solution:
             curr = curr.right
         
         return res
+        """
+
 
