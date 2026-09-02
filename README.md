@@ -90,7 +90,7 @@ For every problem, I maintain:
 
 | Topic | Problems Uploaded | Progress |
 |---|---:|---|
-| Arrays | 13 | ██░░░░░░░░ 25% |
+| Arrays | 13 | ██░░░░░░░░ 24% |
 | Heaps | 1 | ░░░░░░░░░░ 1% |
 | Dp | 1 | ░░░░░░░░░░ 1% |
 | Stack & Queue | 8 | █░░░░░░░░░ 15% |
@@ -98,16 +98,16 @@ For every problem, I maintain:
 | Strings | 7 | █░░░░░░░░░ 13% |
 | Trie | 1 | ░░░░░░░░░░ 1% |
 | Recursion & Backtracking | 4 | ░░░░░░░░░░ 7% |
-| Linked List | 10 | █░░░░░░░░░ 19% |
+| Linked List | 10 | █░░░░░░░░░ 18% |
 | Graph | 1 | ░░░░░░░░░░ 1% |
-| Binary Trees | 3 | ░░░░░░░░░░ 5% |
+| Binary Trees | 4 | ░░░░░░░░░░ 7% |
 | Bst | 0 | ░░░░░░░░░░ 0% |
 | Greedy | 0 | ░░░░░░░░░░ 0% |
 
 
 ### Repository Progress
 
-**52 Problems Uploaded**
+**53 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
