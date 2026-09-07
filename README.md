@@ -128,7 +128,7 @@ For every problem, I maintain:
 | Two Pointer | 11, 18, 15 |
 | Arrays | 136, 169 |
 | Stack & Queue | 496, 2195, 503 |
-| Binary Trees | 101 |
+| Binary Trees | 101, 572 |
 
 <!-- END_PATTERNS -->
 
