@@ -12,13 +12,12 @@ class Solution:
 
         queue = deque([root])
 
-        result = []
-        level_size = 0
-        leftmost = None
+
 
         while queue :
             level_size = len(queue)
             current_level = []
+            leftmost = queue[0].val
             
 
             for _ in range(level_size):
