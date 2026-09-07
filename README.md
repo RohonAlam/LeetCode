@@ -65,6 +65,8 @@ For every problem, I maintain:
 |---|---|
 | 07 September 2026 | 543. Diameter Of Binary Tree |
 | 07 September 2026 | 110. Balanced Binary Tree |
+| 07 September 2026 | 572. Subtree Of Another Tree |
+| 07 September 2026 | 199. Binary Tree Right Side View |
 | 02 September 2026 | 94. Binary Tree Inorder Traversal |
 | 31 August 2026 | 145. Binary Tree Postorder Traversal |
 | 31 August 2026 | 101. Symmetric Tree |
@@ -76,8 +78,6 @@ For every problem, I maintain:
 | 29 August 2026 | 134. Gas Station |
 | 29 August 2026 | 1036. Rotting Oranges |
 | 27 August 2026 | 496. Next Greater Element I |
-| 27 August 2026 | 20. Valid Parentheses |
-| 19 August 2026 | 2. Add Two Numbers |
 
 <!-- END_RECENT -->
 
