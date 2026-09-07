@@ -64,6 +64,7 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 07 September 2026 | 543. Diameter Of Binary Tree |
+| 07 September 2026 | 110. Balanced Binary Tree |
 | 02 September 2026 | 94. Binary Tree Inorder Traversal |
 | 31 August 2026 | 145. Binary Tree Postorder Traversal |
 | 31 August 2026 | 101. Symmetric Tree |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 27 August 2026 | 496. Next Greater Element I |
 | 27 August 2026 | 20. Valid Parentheses |
 | 19 August 2026 | 2. Add Two Numbers |
-| 19 August 2026 | 92. Reverse Linked List Ii |
 
 <!-- END_RECENT -->
 
@@ -121,12 +121,14 @@ For every problem, I maintain:
 
 | Pattern | Problems |
 |---|---|
-| Arrays | 136, 169 |
-| Two Pointer | 18, 11, 15 |
-| Trie | 14 |
 | Binary Search | 74, 33 |
-| Strings | 443, 242, 125 |
-| Backtracking | 567 |
+| Trie | 14 |
+| Backtracking | 90, 567, 40 |
+| Strings | 443, 242, 125, 49 |
+| Two Pointer | 11, 18, 15 |
+| Arrays | 136, 169 |
+| Stack & Queue | 496, 2195, 503 |
+| Binary Trees | 101 |
 
 <!-- END_PATTERNS -->
 
