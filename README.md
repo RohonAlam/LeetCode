@@ -64,6 +64,7 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 16 September 2026 | 98. Validate Binary Search Tree |
+| 16 September 2026 | 230. Kth Smallest Element In A Bst |
 | 15 September 2026 | 789. Kth Largest Element In A Stream |
 | 14 September 2026 | 114. Flatten Binary Tree To Linked List |
 | 14 September 2026 | 103. Binary Tree Zigzag Level Order Traversal |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 07 September 2026 | 110. Balanced Binary Tree |
 | 07 September 2026 | 572. Subtree Of Another Tree |
 | 07 September 2026 | 199. Binary Tree Right Side View |
-| 02 September 2026 | 94. Binary Tree Inorder Traversal |
 
 <!-- END_RECENT -->
 
