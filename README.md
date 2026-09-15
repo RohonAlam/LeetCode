@@ -63,7 +63,10 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 16 September 2026 | 98. Validate Binary Search Tree |
+| 15 September 2026 | 789. Kth Largest Element In A Stream |
 | 14 September 2026 | 114. Flatten Binary Tree To Linked List |
+| 14 September 2026 | 103. Binary Tree Zigzag Level Order Traversal |
 | 08 September 2026 | 513. Find Bottom Left Tree Value |
 | 08 September 2026 | 102. Binary Tree Level Order Traversal |
 | 08 September 2026 | 236. Lowest Common Ancestor Of A Binary Tree |
@@ -75,9 +78,6 @@ For every problem, I maintain:
 | 07 September 2026 | 572. Subtree Of Another Tree |
 | 07 September 2026 | 199. Binary Tree Right Side View |
 | 02 September 2026 | 94. Binary Tree Inorder Traversal |
-| 31 August 2026 | 145. Binary Tree Postorder Traversal |
-| 31 August 2026 | 101. Symmetric Tree |
-| 31 August 2026 | 799. Minimum Distance Between Bst Nodes |
 
 <!-- END_RECENT -->
 
