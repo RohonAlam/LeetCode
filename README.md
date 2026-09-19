@@ -95,19 +95,19 @@ For every problem, I maintain:
 | Dp | 1 | ░░░░░░░░░░ 1% |
 | Stack & Queue | 8 | █░░░░░░░░░ 11% |
 | Binary Search | 3 | ░░░░░░░░░░ 4% |
-| Strings | 7 | █░░░░░░░░░ 10% |
+| Strings | 7 | ░░░░░░░░░░ 9% |
 | Trie | 1 | ░░░░░░░░░░ 1% |
 | Recursion & Backtracking | 4 | ░░░░░░░░░░ 5% |
-| Linked List | 10 | █░░░░░░░░░ 14% |
+| Linked List | 10 | █░░░░░░░░░ 13% |
 | Graph | 1 | ░░░░░░░░░░ 1% |
 | Binary Trees | 16 | ██░░░░░░░░ 22% |
-| Bst | 5 | ░░░░░░░░░░ 7% |
+| Bst | 7 | ░░░░░░░░░░ 9% |
 | Greedy | 0 | ░░░░░░░░░░ 0% |
 
 
 ### Repository Progress
 
-**70 Problems Uploaded**
+**72 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
