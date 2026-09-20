@@ -63,7 +63,9 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 20 September 2026 | 173. Binary Search Tree Iterator |
 | 19 September 2026 | 99. Recover Binary Search Tree |
+| 19 September 2026 | 1050. Construct Binary Search Tree From Preorder Traversal |
 | 16 September 2026 | 98. Validate Binary Search Tree |
 | 16 September 2026 | 230. Kth Smallest Element In A Bst |
 | 16 September 2026 | 235. Lowest Common Ancestor Of A Binary Search Tree |
@@ -76,8 +78,6 @@ For every problem, I maintain:
 | 08 September 2026 | 236. Lowest Common Ancestor Of A Binary Tree |
 | 08 September 2026 | 1114. Binary Search Tree To Greater Sum Tree |
 | 08 September 2026 | 105. Construct Binary Tree From Preorder And Inorder Traversal |
-| 08 September 2026 | 106. Construct Binary Tree From Inorder And Postorder Traversal |
-| 07 September 2026 | 543. Diameter Of Binary Tree |
 
 <!-- END_RECENT -->
 
