@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 21 September 2026 | 450. Delete Node In A Bst |
 | 20 September 2026 | 173. Binary Search Tree Iterator |
 | 19 September 2026 | 99. Recover Binary Search Tree |
 | 19 September 2026 | 1050. Construct Binary Search Tree From Preorder Traversal |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 08 September 2026 | 102. Binary Tree Level Order Traversal |
 | 08 September 2026 | 236. Lowest Common Ancestor Of A Binary Tree |
 | 08 September 2026 | 1114. Binary Search Tree To Greater Sum Tree |
-| 08 September 2026 | 105. Construct Binary Tree From Preorder And Inorder Traversal |
 
 <!-- END_RECENT -->
 
