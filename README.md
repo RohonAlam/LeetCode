@@ -63,6 +63,9 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 25 September 2026 | 14. Longest Common Prefix |
+| 25 September 2026 | 378. Kth Smallest Element In A Sorted Matrix |
+| 23 September 2026 | 347. Top K Frequent Elements |
 | 21 September 2026 | 88. Merge Sorted Array |
 | 21 September 2026 | 450. Delete Node In A Bst |
 | 20 September 2026 | 173. Binary Search Tree Iterator |
@@ -75,9 +78,6 @@ For every problem, I maintain:
 | 15 September 2026 | 789. Kth Largest Element In A Stream |
 | 14 September 2026 | 114. Flatten Binary Tree To Linked List |
 | 14 September 2026 | 103. Binary Tree Zigzag Level Order Traversal |
-| 08 September 2026 | 513. Find Bottom Left Tree Value |
-| 08 September 2026 | 102. Binary Tree Level Order Traversal |
-| 08 September 2026 | 236. Lowest Common Ancestor Of A Binary Tree |
 
 <!-- END_RECENT -->
 
@@ -121,14 +121,14 @@ For every problem, I maintain:
 
 | Pattern | Problems |
 |---|---|
-| Binary Search | 74, 33 |
-| Trie | 14 |
-| Backtracking | 90, 567, 40 |
-| Strings | 443, 242, 125, 49 |
-| Two Pointer | 11, 18, 15 |
-| Arrays | 136, 169 |
-| Stack & Queue | 496, 2195, 503 |
+| Stack & Queue | 503, 2195, 496 |
+| Two Pointer | 15, 11, 18 |
+| Backtracking | 90, 40, 567 |
 | Binary Trees | 101, 572 |
+| Strings | 242, 443, 125, 49 |
+| Binary Search | 33, 74 |
+| Arrays | 169, 136 |
+| Trie | 14 |
 
 <!-- END_PATTERNS -->
 
