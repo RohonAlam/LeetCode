@@ -65,6 +65,7 @@ For every problem, I maintain:
 |---|---|
 | 25 September 2026 | 14. Longest Common Prefix |
 | 25 September 2026 | 378. Kth Smallest Element In A Sorted Matrix |
+| 25 September 2026 | 139. Word Break |
 | 23 September 2026 | 347. Top K Frequent Elements |
 | 21 September 2026 | 88. Merge Sorted Array |
 | 21 September 2026 | 450. Delete Node In A Bst |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 16 September 2026 | 116. Populating Next Right Pointers In Each Node |
 | 15 September 2026 | 789. Kth Largest Element In A Stream |
 | 14 September 2026 | 114. Flatten Binary Tree To Linked List |
-| 14 September 2026 | 103. Binary Tree Zigzag Level Order Traversal |
 
 <!-- END_RECENT -->
 
