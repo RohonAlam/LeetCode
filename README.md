@@ -90,24 +90,24 @@ For every problem, I maintain:
 
 | Topic | Problems Uploaded | Progress |
 |---|---:|---|
-| Arrays | 13 | █░░░░░░░░░ 16% |
+| Arrays | 13 | █░░░░░░░░░ 15% |
 | Heaps | 3 | ░░░░░░░░░░ 3% |
 | Dp | 1 | ░░░░░░░░░░ 1% |
-| Stack & Queue | 8 | █░░░░░░░░░ 10% |
+| Stack & Queue | 8 | ░░░░░░░░░░ 9% |
 | Binary Search | 3 | ░░░░░░░░░░ 3% |
 | Strings | 7 | ░░░░░░░░░░ 8% |
 | Trie | 3 | ░░░░░░░░░░ 3% |
-| Recursion & Backtracking | 4 | ░░░░░░░░░░ 5% |
+| Recursion & Backtracking | 4 | ░░░░░░░░░░ 4% |
 | Linked List | 10 | █░░░░░░░░░ 12% |
-| Graph | 2 | ░░░░░░░░░░ 2% |
-| Binary Trees | 16 | ██░░░░░░░░ 20% |
-| Bst | 9 | █░░░░░░░░░ 11% |
+| Graph | 5 | ░░░░░░░░░░ 6% |
+| Binary Trees | 16 | █░░░░░░░░░ 19% |
+| Bst | 9 | █░░░░░░░░░ 10% |
 | Greedy | 0 | ░░░░░░░░░░ 0% |
 
 
 ### Repository Progress
 
-**79 Problems Uploaded**
+**82 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
