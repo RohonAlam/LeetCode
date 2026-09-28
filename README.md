@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 28 September 2026 | 684. Redundant Connection |
 | 27 September 2026 | 733. Flood Fill |
 | 27 September 2026 | 2755. Extra Characters In A String |
 | 27 September 2026 | 133. Clone Graph |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 19 September 2026 | 99. Recover Binary Search Tree |
 | 19 September 2026 | 1050. Construct Binary Search Tree From Preorder Traversal |
 | 16 September 2026 | 98. Validate Binary Search Tree |
-| 16 September 2026 | 230. Kth Smallest Element In A Bst |
 
 <!-- END_RECENT -->
 
