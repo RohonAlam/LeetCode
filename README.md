@@ -98,8 +98,8 @@ For every problem, I maintain:
 | Strings | 7 | ░░░░░░░░░░ 8% |
 | Trie | 3 | ░░░░░░░░░░ 3% |
 | Recursion & Backtracking | 4 | ░░░░░░░░░░ 4% |
-| Linked List | 10 | █░░░░░░░░░ 12% |
-| Graph | 6 | ░░░░░░░░░░ 7% |
+| Linked List | 10 | █░░░░░░░░░ 11% |
+| Graph | 7 | ░░░░░░░░░░ 8% |
 | Binary Trees | 16 | █░░░░░░░░░ 19% |
 | Bst | 9 | █░░░░░░░░░ 10% |
 | Greedy | 0 | ░░░░░░░░░░ 0% |
@@ -107,7 +107,7 @@ For every problem, I maintain:
 
 ### Repository Progress
 
-**83 Problems Uploaded**
+**84 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
