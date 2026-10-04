@@ -63,7 +63,10 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 04 October 2026 | 1706. Min Cost To Connect All Points |
+| 01 October 2026 | 310. Minimum Height Trees |
 | 28 September 2026 | 684. Redundant Connection |
+| 28 September 2026 | 1663. Detect Cycles In 2D Grid |
 | 27 September 2026 | 733. Flood Fill |
 | 27 September 2026 | 2755. Extra Characters In A String |
 | 27 September 2026 | 133. Clone Graph |
@@ -75,9 +78,6 @@ For every problem, I maintain:
 | 21 September 2026 | 88. Merge Sorted Array |
 | 21 September 2026 | 450. Delete Node In A Bst |
 | 20 September 2026 | 173. Binary Search Tree Iterator |
-| 19 September 2026 | 99. Recover Binary Search Tree |
-| 19 September 2026 | 1050. Construct Binary Search Tree From Preorder Traversal |
-| 16 September 2026 | 98. Validate Binary Search Tree |
 
 <!-- END_RECENT -->
 
