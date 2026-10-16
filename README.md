@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 16 October 2026 | 121. Best Time To Buy And Sell Stock |
 | 04 October 2026 | 1706. Min Cost To Connect All Points |
 | 01 October 2026 | 310. Minimum Height Trees |
 | 28 September 2026 | 684. Redundant Connection |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 23 September 2026 | 347. Top K Frequent Elements |
 | 21 September 2026 | 88. Merge Sorted Array |
 | 21 September 2026 | 450. Delete Node In A Bst |
-| 20 September 2026 | 173. Binary Search Tree Iterator |
 
 <!-- END_RECENT -->
 
