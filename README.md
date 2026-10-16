@@ -63,7 +63,9 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 17 October 2026 | 494. Target Sum |
 | 16 October 2026 | 121. Best Time To Buy And Sell Stock |
+| 16 October 2026 | 416. Partition Equal Subset Sum |
 | 04 October 2026 | 1706. Min Cost To Connect All Points |
 | 01 October 2026 | 310. Minimum Height Trees |
 | 28 September 2026 | 684. Redundant Connection |
@@ -76,8 +78,6 @@ For every problem, I maintain:
 | 25 September 2026 | 139. Word Break |
 | 25 September 2026 | 208. Implement Trie Prefix Tree |
 | 23 September 2026 | 347. Top K Frequent Elements |
-| 21 September 2026 | 88. Merge Sorted Array |
-| 21 September 2026 | 450. Delete Node In A Bst |
 
 <!-- END_RECENT -->
 
