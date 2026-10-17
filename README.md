@@ -90,9 +90,9 @@ For every problem, I maintain:
 
 | Topic | Problems Uploaded | Progress |
 |---|---:|---|
-| Arrays | 13 | █░░░░░░░░░ 15% |
+| Arrays | 13 | █░░░░░░░░░ 14% |
 | Heaps | 3 | ░░░░░░░░░░ 3% |
-| Dp | 2 | ░░░░░░░░░░ 2% |
+| Dp | 3 | ░░░░░░░░░░ 3% |
 | Stack & Queue | 8 | ░░░░░░░░░░ 9% |
 | Binary Search | 3 | ░░░░░░░░░░ 3% |
 | Strings | 7 | ░░░░░░░░░░ 8% |
@@ -107,7 +107,7 @@ For every problem, I maintain:
 
 ### Repository Progress
 
-**86 Problems Uploaded**
+**87 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
