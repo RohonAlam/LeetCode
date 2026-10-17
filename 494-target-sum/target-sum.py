@@ -1,32 +1,24 @@
 from functools import lru_cache
 class Solution:
-    def findTargetSumWays(self, nums: list[int], target: int) -> int:
-
-        #Method 1 : TLE
-        """
+    def findTargetSumWays(self, nums: list[int], target: int) -> int:    
+        
 
         n = len(nums)
 
-        count = 0
-        sum = 0 
+        @lru_cache(None)  #I can use lru_cache(None) only when i am returing some valuesi in recursive calls
 
         def dp(i,sum) :
-            nonlocal count
             if i == n :
-                if sum == target :
-                    count += 1
-                return
+                return 1 if sum == target else 0
+                        
+            return dp(i+1,sum + nums[i] ) + dp(i+1,sum - nums[i] )
             
-            dp(i+1,sum + nums[i] )
-            dp(i+1,sum - nums[i] )
-            
+        return dp(0,0)
+
         
-        dp(0,0)
-        
-        return count 
+        # Method 2 : Must use memoization or TLE will occur
 
         """
-        # Method 2 : Must use memoization or TLE will occur
 
 
 
@@ -43,6 +35,7 @@ class Solution:
             return add + subtract
 
         return dp(0, 0)
+        """
 
 
 
