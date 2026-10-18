@@ -64,6 +64,7 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 18 October 2026 | 4430. Minimum Deletions To Make Array Sharp |
+| 18 October 2026 | 4456. Last Visited Cell In A Directional Grid |
 | 17 October 2026 | 494. Target Sum |
 | 16 October 2026 | 121. Best Time To Buy And Sell Stock |
 | 16 October 2026 | 416. Partition Equal Subset Sum |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 25 September 2026 | 14. Longest Common Prefix |
 | 25 September 2026 | 378. Kth Smallest Element In A Sorted Matrix |
 | 25 September 2026 | 139. Word Break |
-| 25 September 2026 | 208. Implement Trie Prefix Tree |
 
 <!-- END_RECENT -->
 
