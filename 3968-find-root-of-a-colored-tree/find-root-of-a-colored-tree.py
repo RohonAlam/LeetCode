@@ -14,7 +14,6 @@ class Solution:
 
             queue = deque([node])
             
-            queue.append(node)
             visited = {node}
 
             while queue :
