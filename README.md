@@ -93,21 +93,21 @@ For every problem, I maintain:
 | Arrays | 13 | █░░░░░░░░░ 14% |
 | Heaps | 3 | ░░░░░░░░░░ 3% |
 | Dp | 3 | ░░░░░░░░░░ 3% |
-| Stack & Queue | 8 | ░░░░░░░░░░ 9% |
+| Stack & Queue | 8 | ░░░░░░░░░░ 8% |
 | Binary Search | 3 | ░░░░░░░░░░ 3% |
-| Strings | 7 | ░░░░░░░░░░ 8% |
+| Strings | 7 | ░░░░░░░░░░ 7% |
 | Trie | 3 | ░░░░░░░░░░ 3% |
 | Recursion & Backtracking | 4 | ░░░░░░░░░░ 4% |
 | Linked List | 10 | █░░░░░░░░░ 11% |
-| Graph | 8 | ░░░░░░░░░░ 9% |
-| Binary Trees | 16 | █░░░░░░░░░ 18% |
+| Graph | 8 | ░░░░░░░░░░ 8% |
+| Binary Trees | 16 | █░░░░░░░░░ 17% |
 | Bst | 9 | █░░░░░░░░░ 10% |
 | Greedy | 0 | ░░░░░░░░░░ 0% |
 
 
 ### Repository Progress
 
-**87 Problems Uploaded**
+**90 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
