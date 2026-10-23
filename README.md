@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 23 October 2026 | 1908. Recyclable And Low Fat Products |
 | 18 October 2026 | 4430. Minimum Deletions To Make Array Sharp |
 | 18 October 2026 | 4456. Last Visited Cell In A Directional Grid |
 | 18 October 2026 | 3968. Find Root Of A Colored Tree |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 27 September 2026 | 2755. Extra Characters In A String |
 | 27 September 2026 | 133. Clone Graph |
 | 25 September 2026 | 14. Longest Common Prefix |
-| 25 September 2026 | 378. Kth Smallest Element In A Sorted Matrix |
 
 <!-- END_RECENT -->
 
