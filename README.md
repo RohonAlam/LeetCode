@@ -66,6 +66,7 @@ For every problem, I maintain:
 | 23 October 2026 | 1908. Recyclable And Low Fat Products |
 | 23 October 2026 | 584. Find Customer Referee |
 | 23 October 2026 | 1258. Article Views I |
+| 23 October 2026 | 1827. Invalid Tweets |
 | 18 October 2026 | 4430. Minimum Deletions To Make Array Sharp |
 | 18 October 2026 | 4456. Last Visited Cell In A Directional Grid |
 | 18 October 2026 | 3968. Find Root Of A Colored Tree |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 28 September 2026 | 684. Redundant Connection |
 | 28 September 2026 | 1663. Detect Cycles In 2D Grid |
 | 27 September 2026 | 733. Flood Fill |
-| 27 September 2026 | 2755. Extra Characters In A String |
 
 <!-- END_RECENT -->
 
