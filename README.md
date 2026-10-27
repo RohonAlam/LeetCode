@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 27 October 2026 | 197. Rising Temperature |
 | 24 October 2026 | 1509. Replace Employee Id With The Unique Identifier |
 | 23 October 2026 | 1908. Recyclable And Low Fat Products |
 | 23 October 2026 | 584. Find Customer Referee |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 04 October 2026 | 1706. Min Cost To Connect All Points |
 | 01 October 2026 | 310. Minimum Height Trees |
 | 28 September 2026 | 684. Redundant Connection |
-| 28 September 2026 | 1663. Detect Cycles In 2D Grid |
 
 <!-- END_RECENT -->
 
