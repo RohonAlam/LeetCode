@@ -92,7 +92,7 @@ For every problem, I maintain:
 |---|---:|---|
 | Arrays | 13 | █░░░░░░░░░ 13% |
 | Heaps | 3 | ░░░░░░░░░░ 3% |
-| Dp | 5 | ░░░░░░░░░░ 5% |
+| Dp | 6 | ░░░░░░░░░░ 6% |
 | Stack & Queue | 8 | ░░░░░░░░░░ 8% |
 | Binary Search | 3 | ░░░░░░░░░░ 3% |
 | Strings | 7 | ░░░░░░░░░░ 7% |
@@ -107,7 +107,7 @@ For every problem, I maintain:
 
 ### Repository Progress
 
-**99 Problems Uploaded**
+**100 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
