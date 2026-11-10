@@ -102,12 +102,12 @@ For every problem, I maintain:
 | Graph | 8 | ░░░░░░░░░░ 8% |
 | Binary Trees | 16 | █░░░░░░░░░ 16% |
 | Bst | 9 | ░░░░░░░░░░ 9% |
-| Greedy | 0 | ░░░░░░░░░░ 0% |
+| Greedy | 1 | ░░░░░░░░░░ 1% |
 
 
 ### Repository Progress
 
-**96 Problems Uploaded**
+**97 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
