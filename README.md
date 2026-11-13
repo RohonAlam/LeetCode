@@ -63,6 +63,8 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 13 November 2026 | 1801. Average Time Of Process Per Machine |
+| 13 November 2026 | 577. Employee Bonus |
 | 10 November 2026 | 322. Coin Change |
 | 10 November 2026 | 1250. Longest Common Subsequence |
 | 10 November 2026 | 718. Maximum Length Of Repeated Subarray |
@@ -76,8 +78,6 @@ For every problem, I maintain:
 | 18 October 2026 | 4430. Minimum Deletions To Make Array Sharp |
 | 18 October 2026 | 4456. Last Visited Cell In A Directional Grid |
 | 18 October 2026 | 3968. Find Root Of A Colored Tree |
-| 17 October 2026 | 494. Target Sum |
-| 16 October 2026 | 121. Best Time To Buy And Sell Stock |
 
 <!-- END_RECENT -->
 
