@@ -63,8 +63,10 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 22 November 2026 | 1390. Average Selling Price |
 | 13 November 2026 | 1801. Average Time Of Process Per Machine |
 | 13 November 2026 | 577. Employee Bonus |
+| 13 November 2026 | 2087. Confirmation Rate |
 | 10 November 2026 | 322. Coin Change |
 | 10 November 2026 | 1250. Longest Common Subsequence |
 | 10 November 2026 | 718. Maximum Length Of Repeated Subarray |
@@ -76,8 +78,6 @@ For every problem, I maintain:
 | 23 October 2026 | 1258. Article Views I |
 | 23 October 2026 | 1827. Invalid Tweets |
 | 18 October 2026 | 4430. Minimum Deletions To Make Array Sharp |
-| 18 October 2026 | 4456. Last Visited Cell In A Directional Grid |
-| 18 October 2026 | 3968. Find Root Of A Colored Tree |
 
 <!-- END_RECENT -->
 
