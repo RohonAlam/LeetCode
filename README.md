@@ -64,6 +64,7 @@ For every problem, I maintain:
 | Date | Problem |
 |---|---|
 | 22 November 2026 | 1390. Average Selling Price |
+| 22 November 2026 | 1161. Project Employees I |
 | 13 November 2026 | 1801. Average Time Of Process Per Machine |
 | 13 November 2026 | 577. Employee Bonus |
 | 13 November 2026 | 2087. Confirmation Rate |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 23 October 2026 | 584. Find Customer Referee |
 | 23 October 2026 | 1258. Article Views I |
 | 23 October 2026 | 1827. Invalid Tweets |
-| 18 October 2026 | 4430. Minimum Deletions To Make Array Sharp |
 
 <!-- END_RECENT -->
 
