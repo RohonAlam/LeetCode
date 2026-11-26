@@ -63,6 +63,7 @@ For every problem, I maintain:
 
 | Date | Problem |
 |---|---|
+| 26 November 2026 | 1182. Game Play Analysis Iv |
 | 22 November 2026 | 1390. Average Selling Price |
 | 22 November 2026 | 1161. Project Employees I |
 | 13 November 2026 | 1801. Average Time Of Process Per Machine |
@@ -77,7 +78,6 @@ For every problem, I maintain:
 | 23 October 2026 | 1908. Recyclable And Low Fat Products |
 | 23 October 2026 | 584. Find Customer Referee |
 | 23 October 2026 | 1258. Article Views I |
-| 23 October 2026 | 1827. Invalid Tweets |
 
 <!-- END_RECENT -->
 
@@ -107,7 +107,7 @@ For every problem, I maintain:
 
 ### Repository Progress
 
-**103 Problems Uploaded**
+**106 Problems Uploaded**
 
 
 <!-- END_PROGRESS -->
@@ -121,14 +121,16 @@ For every problem, I maintain:
 
 | Pattern | Problems |
 |---|---|
-| Stack & Queue | 503, 2195, 496 |
-| Two Pointer | 15, 11, 18 |
-| Backtracking | 90, 40, 567 |
-| Binary Trees | 101, 572 |
-| Strings | 242, 443, 125, 49 |
-| Binary Search | 33, 74 |
 | Arrays | 169, 136 |
+| Strings | 242, 49, 443, 125 |
+| Dynamic Programming | 322, 72 |
+| Binary Trees | 101, 572 |
 | Trie | 14 |
+| Stack & Queue | 503, 2195, 496 |
+| Two Pointer | 15, 18, 11 |
+| Binary Search | 74, 33 |
+| Backtracking | 90, 40, 567 |
+| Dp | 1250 |
 
 <!-- END_PATTERNS -->
 
